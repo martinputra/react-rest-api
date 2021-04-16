@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
-import Navbar from "./component/navbar/Navbar"
+import Navbar from "./component/navbar/Navbar";
 import Card from "./component/card/Card";
+import Footer from "./component/footer/Footer";
 
 function App() {
   // state / management memory
@@ -47,6 +48,8 @@ function App() {
           )
         })}        
       </header>
+
+      <Footer />
 
     </div>
   );
